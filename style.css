@@ -9,6 +9,7 @@
   #lezioni .row {
     background-color: rgb(242, 242, 205);
   }
+
 }
 
 /* BLOCCO LEZIONI */
@@ -16,6 +17,15 @@
 #lezioni .row>.right {
   width: 50%;
   float: left;
+}
+
+@media screen and (max-width: 420px) {
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 100%;
+   
+  }
+
 }
 
 #lezioni .row img {
