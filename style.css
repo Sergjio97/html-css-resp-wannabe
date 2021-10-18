@@ -7,9 +7,9 @@
 
 @media screen and (max-width: 420px) {
   #lezioni .row {
+    width: 377px;
     background-color: rgb(242, 242, 205);
   }
-
 }
 
 /* BLOCCO LEZIONI */
@@ -22,10 +22,8 @@
 @media screen and (max-width: 420px) {
   #lezioni .row>.left,
   #lezioni .row>.right {
-  width: 100%;
-   
+  width: 100%;  
   }
-
 }
 
 #lezioni .row img {
@@ -45,6 +43,19 @@
 #steps .row>.right {
   float: left;
   width: 33%;
+}
+
+@media screen and (max-width: 420px) {
+  #steps .row {
+  width: 377px;
+  background-color: white;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+  }
 }
 
 #steps {
