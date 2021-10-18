@@ -10,9 +10,18 @@
     width: 420px;
     margin: 0;
   }
+
+  #lezioni .row {
+    background-color: rgb(242, 242, 205);
+  }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (width: 768px) {
+  .row {
+    width: 768px;
+    margin: 0;
+  }
+
   #lezioni .row {
     background-color: rgb(242, 242, 205);
   }
@@ -26,6 +35,13 @@
 }
 
 @media screen and (max-width: 420px) {
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 100%;  
+  }
+}
+
+@media screen and (width: 768px) {
   #lezioni .row>.left,
   #lezioni .row>.right {
   width: 100%;  
